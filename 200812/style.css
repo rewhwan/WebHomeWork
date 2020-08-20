@@ -1,0 +1,38 @@
+fieldset ,h1 {
+    width: 800px;
+    margin: 20px auto;
+}
+
+fieldset > legend {
+    color: rebeccapurple;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+fieldset {
+    padding: 30px;
+}
+
+table {
+    border-spacing: 0 10px;
+}
+
+.personInform td {
+    width: 80px;
+}
+
+.addressInform td {
+    width: 80px;
+}
+
+.orderInform td {
+    width: 200px;
+}
+
+#num1,#num2,#num3 {
+    width: 50px;
+}
+
+div {
+    text-align: center;
+}

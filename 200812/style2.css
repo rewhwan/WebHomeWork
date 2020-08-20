@@ -1,0 +1,25 @@
+table {
+    width: 700px;
+}
+
+h5 {
+    text-align: center;
+}
+
+.in{
+    text-align: right;
+}
+
+th{
+    background-color: rgba(128, 128, 128, 0.48);
+}
+
+img {
+
+    width: 100px;
+    height: 140px;
+}
+
+td{
+    text-align: center;
+}

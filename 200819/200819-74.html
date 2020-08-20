@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>기본입력양식태그</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body onload="init74()">
+    <h1>window 객체</h1>
+    <h3>open 메소드 확인</h3>
+    <div>
+        <button onclick="open1();">새 창 열기</button>
+        <button onclick="open2();">팝업 창 열기(1)</button>
+
+        <button onclick="open3('http://www.naver.com');">네이버</button>
+        <button onclick="open3('http://www.daum.net');">다음</button>
+
+    </div>
+
+    <form method="get" action="#">
+        <input name="act">
+    </form>
+
+    <form method="get" action="#">
+        <input name="name">
+        <input type="submit">
+    </form>
+</body>
+</html>

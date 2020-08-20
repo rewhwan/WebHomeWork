@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div id="main">
+        <form>
+        <h1>회원가입</h1>
+        <h4>필수 항목</h4>
+
+        <input type="text" class="necessary" placeholder="아이디">
+        <input type="password" class="necessary" placeholder="비밀번호">
+        <input type="password" class="necessary" placeholder="비밀번호 확인">
+        <input type="text" class="necessary" placeholder="이름">
+        <input type="email" class="necessary" placeholder="이메일">@
+        <select>
+            <optgroup>
+                <option>네이버</option>
+                <option>다음</option>
+                <option>네이트</option>
+                <option>구글</option>
+            </optgroup>
+        </select>
+
+        <div>
+            <input type="checkbox" id="14" required><label for="14">만 14세 이상입니다.</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="confirm" required><label for="confirm">이용약관 동의</label><button>내용보기</button>
+        </div>
+
+        <div>
+            <input type="checkbox" id="personInform" required><label for="personInform">개인정보 수집 및 이용 동의</label><button>내용보기</button>
+        </div>
+
+        <div>
+            <table border="1">
+                <tr>
+                    <th>구분</th>
+                    <th>목적</th>
+                    <th>항목</th>
+
+                    <th>보유 및 이용기간</th>
+                </tr>
+
+                <tr>
+                    <td>필수</td>
+                    <td>이용자 식별, 서비스 이행을 위한 연락</td>
+                    <td>이름,아이디,비밀번호,이메일</td>
+                    <td>회원탈퇴 후 5일까지</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+
+        <h4>필수 항목</h4>
+        <div>
+            생년월일
+            <input type="date">
+        </div>
+        <div>
+            성별
+            <input type="radio" name="gender" id="man"><label for="man">남자</label>
+            <input type="radio" name="gender" id="woman"><label for="woman">여자</label>
+        </div>
+            <table border="1">
+                <tr>
+                    <td rowspan="3"><input type="checkbox" id="allconfirm"><label for="allconfirm">전체동의</label></td>
+                    <td><input type="checkbox" id="birth"> <label for="birth">생년월일과 성별 수집 및 이용 동의</label> </td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="email"> <label for="email">이메일 마케팅 수신 동의</label> </td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="three"> <label for="three">개인정보 유효기간 3년 지정 (미동의 시 1년)</label> </td>
+                </tr>
+            </table>
+
+            <table border="1">
+                <tr>
+                    <th>구분</th>
+                    <th>목적</th>
+                    <th>항목</th>
+                    <th>보유 및 이용기간</th>
+                </tr>
+
+                <tr>
+                    <td>선택</td>
+                    <td>맞춤 정보,제공,마케팅</td>
+                    <td>성별,생년월일</td>
+                    <td>회원탈퇴 후 5일까지</td>
+                </tr>
+            </table>
+
+            <div id="submit">
+                <button>회원가입하기</button>
+            </div>
+
+
+        </form>
+    </div>
+</body>
+</html>

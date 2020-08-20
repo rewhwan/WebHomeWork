@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>기본입력양식태그</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+</body>
+<div>
+</div>
+</html>
+
+<script>
+    window.onload = function () {
+        var dan = 0;
+        var result = 0;
+        var str = '';
+
+        while(dan !==20){
+            dan = Number(prompt("몇단이 궁금한가 여행자여? ....."));
+
+            str += '<h2>'+dan+'단</h2>'
+
+            for(var i=1; i<=9; i++ ) {
+                result = dan * i;
+                str += dan+" * "+i+" = "+result+"<br>";
+            }
+            document.body.innerHTML = str;
+        }
+    };
+
+</script>

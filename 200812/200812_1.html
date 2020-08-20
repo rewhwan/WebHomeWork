@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css?ver=1">
+</head>
+<body>
+    <h1>상품 주문서</h1>
+    <form action="200812_1.html" method="post">
+        <fieldset>
+            <legend>개인 정보</legend>
+            <table class="personInform">
+                <tr><td>이름</td><td><input type="text" placeholder="여백없이 입력" required></td></tr>
+                <tr><td>연락처</td><td><input type="text" placeholder="연락가능한 번호" required></td></tr>
+            </table>
+        </fieldset>
+
+        <fieldset>
+            <legend>배송지 정보</legend>
+            <table class="addressInform">
+                <tr><td>주소</td><td><input type="text" required></td></tr>
+                <tr><td>전화번호</td><td><input type="text" required></td></tr>
+                <tr><td>메모</td><td><textarea></textarea></td></tr>
+            </table>
+        </fieldset>
+
+        <fieldset>
+            <legend>주문 정보</legend>
+            <table class="orderInform">
+                <tr><td><input type="checkbox" id="check1"><label for="check1">과테말라 안티구아 (100g)</label></td><td><input type="number" id="num1" value="0">개</td></tr>
+                <tr><td><input type="checkbox" id="check2"><label for="check2">인도네시아 만델링 (100g)</label></td><td><input type="number" id="num2" value="0">개</td></tr>
+                <tr><td><input type="checkbox" id="check3"><label for="check3">탐라는도다(블렌딩) (100g)</label></td><td><input type="number" id="num3" value="0">개</td></tr>
+            </table>
+        </fieldset>
+        <div>
+            <input type="submit" value="주문하기">
+            <input type="reset" value="초기화">
+        </div>
+    </form>
+
+</body>
+</html>

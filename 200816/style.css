@@ -1,0 +1,283 @@
+body {
+    width: 100%;
+    margin: 0;
+}
+
+.header {
+    height: 180px;
+}
+
+.content {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+/*메인화면 첫번째줄 사진*/
+.mainImage {
+    width: 364px;
+    height: 330px;
+    border: 1px solid black;
+    margin: 30px 0;
+    float: left;
+}
+
+.mainImageBox:nth-child(1) {
+    height: 392px;
+    margin: 0 auto;
+}
+
+/*검색참 & 로고 박스*/
+.titleBox {
+    height: 152px;
+}
+
+.logoImage {
+    width: 20%;
+    height: 100px;
+    float: left;
+    margin: 20px 0;
+}
+
+.searchBox {
+    width: 30%;
+    height: 40px;
+    float: left;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+
+.cardImage {
+    width: 32%;
+    height: 348px;
+    float: left;
+}
+
+.cardImage:nth-child(2) {
+    margin: 0 18px;
+}
+
+/*첫 사진 박스*/
+.imageBox {
+    height: 350px;
+    margin: 50px 0;
+}
+
+/*기획 취재 박스*/
+.directBox{
+    height: 600px;
+    margin: 70px 0;
+}
+
+.directContent {
+    width: 33%;
+    height: 598px;
+    float: left;
+}
+
+.reviewContent {
+    width: 668px;
+    height: 598px;
+    margin-left: 65px;
+    float: left;
+}
+
+.directList {
+    width: 360px;
+    height: 500px;
+    margin: 12px 0;
+}
+
+.directImage {
+    height: 230px;
+    margin: 15px 0;
+}
+
+.reviewContentBox {
+    width: 668px;
+    height: 460px;
+    margin: 15px 0;
+}
+
+.reviewContentList {
+    width: 325px;
+    height: 232px;
+    float: left;
+}
+
+.reviewContentList:nth-child(1) {
+    margin-right: 7px;
+    margin-bottom: 7px;
+}
+
+.reviewContentList:nth-child(2) {
+    margin-left: 7px;
+    margin-bottom: 7px;
+}
+
+.reviewContentList:nth-child(3) {
+   margin-top: 7px;
+    margin-right: 7px;
+}
+
+.reviewContentList:nth-child(4) {
+    margin-top: 7px;
+    margin-left: 7px;
+}
+
+/*라이프 박스*/
+.lifeBox {
+    height: 270px;
+    margin: 40px 0;
+}
+
+.lifeImage {
+    width: 33%;
+    height: 268px;
+    float: left;
+}
+
+.lifeList {
+    width: 668px;
+    height: 268px;
+    margin-left: 65px;
+    float: left;
+}
+
+/*삼단메뉴*/
+.container-width {
+    width: 100%;
+    clear: both;
+}
+
+.bestClick, .moterShow, .news {
+    width: 350px;
+    height: 600px;
+    float: left;
+    margin: 49px 0;
+}
+
+.tripleMenu {
+    height: 700px;
+}
+
+.moterShow {
+    margin: 49px 25px;
+}
+
+.fullBox {
+    width: 348px;
+    height: 500px;
+    margin: 12px 0;
+}
+
+.listBox {
+    width: 331px;
+    height: 98px;
+    padding-left: 15px;
+}
+
+.newsBox {
+    height: 249px;
+}
+
+/*신차뉴스*/
+.newBox {
+    height: 400px;
+    margin: 20px 0;
+}
+
+.newImage {
+    width: 540px;
+    height: 398px;
+    margin-right: 8px;
+    float: left;
+}
+
+.newContent {
+    width: 540px;
+    height: 398px;
+    margin-left: 8px;
+    float: left;
+}
+
+.newContentBig {
+    width: 530px;
+    height: 188px;
+    margin: 5px auto;
+}
+
+.newContentSmall {
+    width: 258px;
+    height: 186px;
+    margin: 5px;
+    float: left;
+}
+
+/*추천 컨텐츠*/
+.container {
+    width: 100%;
+    height: 380px;
+    padding: 50px 0;
+}
+
+.recommend-imageBox {
+    width: 1080px;
+    height: 298px;
+    margin: 20px 10px;
+}
+
+.recommend-image {
+    width: 250px;
+    height: 298px;
+    float: left;
+}
+
+.recommend-image:nth-child(2) {
+    margin-left: 24px;
+    margin-right: 12px;
+}
+
+.recommend-image:nth-child(3) {
+    margin-left: 12px;
+    margin-right: 24px;
+}
+
+/*Footer 관련 CSS*/
+.footer {
+    width: 1100px;
+    height: 250px;
+    margin: 20px auto;
+}
+
+.footerImg {
+    width: 276px;
+    height: 150px;
+    margin: 10px;
+    float: left;
+}
+
+.footerContent {
+    width: 776px;
+    height: 200px;
+    margin: 10px;
+    float: left;
+    line-height: 91px;
+}
+
+/*공통 Css*/
+.border {
+    border: 1px solid black;
+}
+
+.margin {
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+hr {
+    margin: 0;
+}
+
