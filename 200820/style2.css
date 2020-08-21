@@ -1,0 +1,43 @@
+#main {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+h1 ,h4 {
+    width: fit-content;
+}
+
+.necessary {
+    display: block;
+    width: 100%;
+    margin: 20px 0px;
+    height: 3em;
+}
+
+#userEmail {
+    display: inline;
+    width: auto;
+}
+
+input[type="password"] {
+    margin: 0px;
+}
+
+table th {
+    background-color: grey;
+    color: white;
+    padding: 5px;
+}
+
+table td {
+    padding: 5px;
+}
+
+table {
+    width: 100%;
+    margin: 20px 0px;
+}
+
+#submit {
+    text-align: center;
+}
