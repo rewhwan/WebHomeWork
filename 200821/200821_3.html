@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Jquery h1 InnerHTML Get AND Paste</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script>
+
+        window.onload = function () {
+            var btn1 = document.getElementsByTagName("button");
+            var h1Tag = document.getElementsByTagName("h1");
+            var textp = document.getElementById("text");
+
+
+            btn1[0].onclick = function () {
+                var h1html = h1Tag[0].innerHTML;
+                textp.innerHTML = h1html;
+            }
+        }
+
+
+        // $(function() {
+        //     $("button").on("click", function() {
+        //         var newText = $("h1").html();	// <h1>요소의 텍스트를 읽어오는 getter 메소드
+        //         $("#text").html(newText);		// id가 "text"인 요소에 새로운 텍스트를 설정하는 setter 메소드
+        //     });
+        // });
+
+    </script>
+</head>
+<body>
+
+    <h1>.html() 메소드</h1>
+    <p>아래의 버튼을 누르면 다음 단락에 새로운 텍스트를 설정할 수 있어요!!</p>
+    <button>새로운 텍스트!</button>
+    <p id="text"></p>
+
+</body>
+</html>
