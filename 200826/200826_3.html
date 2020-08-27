@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>200826_3</title>
+
+        <script src="./js/vendor/modernizr.custom.min.js"></script>
+        <script src="./js/vendor/jquery-1.10.2.min.js"></script>
+        <script src="./js/vendor/jquery-ui-1.10.3.custom.min.js"></script>
+
+        <script>
+            $(function () {
+                var container = $("body");
+                var btn1 = container.find("#btn1");
+                var originItem = container.find("#item");
+                var parent = container.find("#list");
+
+                btn1.on("click",function () {
+                    parent.append(originItem.clone());
+                });
+
+            });
+        </script>
+
+    </head>
+    <body>
+        <h1>cloneNode() 메소드</h1>
+        <button id="btn1">노드 복제!</button>
+        <h2 id="item">JavaScript</h2>
+        <div id="list">
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>JQuery</p>
+        </div>
+    </body>
+</html>

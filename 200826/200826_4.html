@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>200826_4</title>
+
+        <script src="./js/vendor/modernizr.custom.min.js"></script>
+        <script src="./js/vendor/jquery-1.10.2.min.js"></script>
+        <script src="./js/vendor/jquery-ui-1.10.3.custom.min.js"></script>
+
+        <script>
+
+            $(function () {
+                var container = $("body");
+                var text = container.find("#text");
+                var btn1 = container.find("#btn1");
+
+                btn1.on("click",function () {
+                    text.html("텍스트 변경 완료!");
+                });
+            });
+
+        </script>
+
+    </head>
+    <body>
+        <h1>텍스트 노드의 값 변경</h1>
+        <p id="text">이 텍스트를 변경하고 싶어요!</p>
+        <button id="btn1">텍스트 변경!</button>
+    </body>
+</html>

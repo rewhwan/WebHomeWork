@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>200826-1</title>
+
+        <script src="./js/vendor/modernizr.custom.min.js"></script>
+        <script src="./js/vendor/jquery-1.10.2.min.js"></script>
+        <script src="./js/vendor/jquery-ui-1.10.3.custom.min.js"></script>
+        <script>
+
+            $(function () {
+               var container = $("body");
+               var criteriaNode = container.find("#text");
+               var btn1 = container.find("#btn1");
+
+               btn1.on("click", function () {
+                    criteriaNode.before("<p>새로운 단락입니다.</p>");
+               });
+            });
+
+        </script>
+    </head>
+    <body>
+        <h1>요소 노드의 생성</h1>
+        <p id="text">새로운 단락을 생성하여 이 단락 앞에 추가할 것입니다.</p>
+        <button id="btn1">요소 노드 생성!</button>
+    </body>
+</html>

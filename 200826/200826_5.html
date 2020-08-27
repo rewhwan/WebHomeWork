@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>200826_5</title>
+
+        <script src="./js/vendor/modernizr.custom.min.js"></script>
+        <script src="./js/vendor/jquery-1.10.2.min.js"></script>
+        <script src="./js/vendor/jquery-ui-1.10.3.custom.min.js"></script>
+
+        <script>
+
+            $(function () {
+                var container = $("body");
+                var first = container.find("#first");
+                var third = container.find("#third");
+                var btn1 = container.find("#btn1");
+
+                btn1.on("click",function () {
+                    first.replaceWith(third);
+                });
+            });
+
+            function changeNode() {
+                parent.replaceChild(third, first);			// first 요소를 삭제하고, 그 대신 third 요소를 삽입함.
+            }
+
+        </script>
+
+    </head>
+    <body>
+        <h1>요소 노드의 교체</h1>
+        <div id="parent">
+            <p id="first">첫 번째 요소입니다.</p>
+            <p>두 번째 요소입니다.</p>
+        </div>
+        <p id="third">세 번째 요소입니다.</p>
+        <button id="btn1">요소 노드 교체!</button>
+    </body>
+</html>

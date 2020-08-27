@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>200826-2</title>
+
+        <script src="./js/vendor/modernizr.custom.min.js"></script>
+        <script src="./js/vendor/jquery-1.10.2.min.js"></script>
+        <script src="./js/vendor/jquery-ui-1.10.3.custom.min.js"></script>
+        <script>
+            $(function () {
+                var container = $("body");
+                var btn1 = container.find("#btn1");
+                var list = container.find("#list");
+                var items = list.find("p");
+
+                btn1.on("click", function () {
+                    items.remove("#item");
+                });
+            });
+
+        </script>
+    </head>
+    <body>
+        <h1>removeChild() 메소드</h1>
+        <button id="btn1">요소 노드 삭제!</button>
+        <div id="list">
+            <p>HTML</p>
+            <p id="item">CSS</p>
+            <p>JavaScript</p>
+        </div>
+    </body>
+</html>
